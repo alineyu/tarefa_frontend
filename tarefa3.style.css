@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+    
+}
+@font-face {
+    font-family: cherolina;
+    src: url(fonts/Cherolina.ttf);
+}
+
+header {
+    background-color: #B4B4B8;
+    color: whitesmoke;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1, section h2 {
+    font-family: cherolina;
+    font-weight: normal;
+    font-size: 90px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 15px;
+    
+}
+header nav li a {
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+header nav li a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 50px 0;
+}
+section .container {
+    display: flex;
+}
+#about h2 {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+#about p {
+    margin-left: 30px;
+}
+
+#about p {
+    text-align: justify;
+    letter-spacing: 1.7px;
+}
+#ring-photo {
+    box-shadow: 2px 2px 10px #7e7979;
+}
+#contact .container {
+    display: block;
+}
+#link-shop {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #C7C8CC;
+    margin-top: 15px;
+}
+#link-shop:hover {
+    text-decoration: underline;
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-methods h2 {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+.social-links img {
+    height: 25px;
+}
+.social-links img:hover {
+    opacity: 0.5;
+}
+form input, form textarea, form button {
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    width: 320px;
+}
+form button {
+    background-color: #C7C8CC;
+    border: none;
+}
+form button:hover {
+    background-color: #B4B4B8;
+    cursor: pointer;
+}
+form textarea {
+    resize: none;
+    font-family: roboto;
+}
+input:focus, textarea:focus {
+    outline-color: #7e7979;
+}
+footer {
+    padding: 16px;
+    background-color:#C7C8CC;
+    font-size: 20px;
+    text-align: center;
+}
