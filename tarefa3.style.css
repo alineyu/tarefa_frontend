@@ -74,6 +74,7 @@ section .container {
     display: inline-block;
     text-decoration: none;
     padding: 10px;
+    color: black;
     background-color: #C7C8CC;
     margin-top: 15px;
 }
